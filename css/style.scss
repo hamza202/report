@@ -1,0 +1,140 @@
+//Variables
+$background: #fbffff;
+$tableHeaderBg: #C9DBFF;
+$borderColor: #BDBEC0;
+$tableColor: #212529;
+$totalBc: #F5FF9B;
+
+//Variables report2
+$r2BodyBg:#fff;
+$r2mainColor: #E1E9FF;
+$r2InvoiceColor:#A2656B;
+$r2BorderColor: #23262D;
+$r2companyColor: #6D8E9E;
+@import "bootstrap.min.css";
+
+body{
+  background-color: $background;
+}
+.table-bordered{
+  td,th{
+    border-color: $borderColor
+  }
+}
+table.table{
+  color: $tableColor;
+}
+.comp-d-table{
+  tbody{
+    tr{
+      td:first-child{
+        text-align: right;
+      }
+    }
+  }
+}
+.t-header-bg{
+  th{
+    background-color: $tableHeaderBg;
+  }
+}
+.fourth-section{
+  table{
+    tbody{
+      tr:last-child{
+        td{
+          font-weight: 700;
+          &:last-child{
+            background-color:$totalBc ;
+          }
+        }
+      }
+      td{
+        text-align: right;
+      }
+      td:first-child{
+        @media (min-width: 767.98px) {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+//report1 End
+//report2 start
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+.fw-700{
+  font-weight: 700;
+}
+.fw-800{
+  font-weight: 800;
+}
+.fw-900{
+  font-weight: 900;
+}
+.r2{
+  background-color: $r2BodyBg;
+}
+.red-invoice{
+  color: $r2InvoiceColor;
+  font-weight: 800;
+  text-align: center;
+  @media (min-width: 991.98px) {
+    text-align: right;
+  }
+}
+.r2-bc{
+  background-color: $r2mainColor;
+}
+.r2-comp-details{
+  ul{
+    margin-bottom: 0;
+    li{
+      p{
+        margin-bottom: 10px;
+      }
+      h3{
+        color: $r2companyColor;
+      }
+      &:last-child{
+        p{
+          background-color: $r2mainColor;
+          border-bottom: 1px solid $r2BorderColor;
+          padding: 0 3px;
+        }
+      }
+    }
+  }
+}
+table.r2-table{
+  th,td{
+    border-color: $r2BorderColor ;
+  }
+}
+.r2-table-1{
+  td{
+    width: 33.333%;
+  }
+  p{
+    background-color: $r2mainColor;
+    border-bottom: 1px solid $r2BorderColor;
+    display: inline;
+
+  }
+}
+.r2-table-2{
+  td{
+    background-color: $r2mainColor;
+  }
+}
+.va-middle{
+  vertical-align: middle !important;
+}
+.r2-border-bottom{
+  border-bottom: 1px solid $r2BorderColor;
+}
