@@ -1,4 +1,5 @@
 @import url(bootstrap.min.css);
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap");
 body {
   background-color: #fbffff; }
 
@@ -107,5 +108,31 @@ table.r2-table th, table.r2-table td {
 
 .r3-color {
   color: #1C1E13; }
+
+.r4-color {
+  color: #000; }
+
+.r4 {
+  border: 15px solid #FF9F05;
+  font-family: 'PT Serif', serif; }
+
+.r4-logo img {
+  max-width: 250px;
+  height: auto; }
+
+.r4-invoice h3 {
+  font-size: 35px;
+  display: inline-block;
+  border: 5px solid #000;
+  padding: 5px 60px;
+  border-radius: 5px; }
+
+.r4-table th {
+  text-transform: uppercase; }
+.r4-table th, .r4-table td {
+  border-color: #000; }
+
+.r4-border-bottom {
+  border-bottom: 1px solid #000; }
 
 /*# sourceMappingURL=style.css.map */

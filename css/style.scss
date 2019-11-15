@@ -17,8 +17,13 @@ $r3InvoiceColor: #1C1E13;
 $r3BorderColor:  #1C1E13;
 $r3TableBg: #9E9E9E;
 
+//Variables report4
+$r4Color: #000;
+$r4BigBorder:#FF9F05;
+$r4TableBorder: #000;
+$r4borderBottom: #000;
 @import "bootstrap.min.css";
-
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap');
 body{
   background-color: $background;
 }
@@ -175,4 +180,40 @@ table.r2-table{
 }
 .r3-color{
   color: $r3BorderColor;
+}
+//End report3
+//Start report4
+.r4-color{
+  color: $r4Color;
+}
+.r4{
+  border: 15px solid $r4BigBorder;
+  font-family: 'PT Serif', serif;
+
+}
+.r4-logo{
+  img{
+    max-width: 250px;
+    height: auto;
+  }
+}
+.r4-invoice{
+  h3{
+    font-size: 35px;
+    display: inline-block;
+    border: 5px solid $r4Color;
+    padding: 5px 60px;
+    border-radius: 5px;
+  }
+}
+.r4-table{
+  th{
+    text-transform: uppercase;
+  }
+  th,td{
+    border-color: $r4TableBorder;
+  }
+}
+.r4-border-bottom{
+  border-bottom: 1px solid $r4borderBottom;
 }
