@@ -83,4 +83,29 @@ table.r2-table th, table.r2-table td {
 .r2-border-bottom {
   border-bottom: 1px solid #23262D; }
 
+.r3-invoice-word {
+  text-align: right; }
+  .r3-invoice-word h2 {
+    color: #1C1E13;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 9px; }
+
+.r3-border-bottom {
+  border-bottom: solid 1px #1C1E13; }
+
+.va-bottom {
+  vertical-align: bottom !important; }
+
+.r3-table-1 th {
+  background-color: #9E9E9E;
+  padding: 0.5rem;
+  color: #1C1E13; }
+.r3-table-1 td {
+  padding: 0.5rem;
+  color: #1C1E13; }
+
+.r3-color {
+  color: #1C1E13; }
+
 /*# sourceMappingURL=style.css.map */

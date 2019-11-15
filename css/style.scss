@@ -11,6 +11,12 @@ $r2mainColor: #E1E9FF;
 $r2InvoiceColor:#A2656B;
 $r2BorderColor: #23262D;
 $r2companyColor: #6D8E9E;
+
+//Variables report3
+$r3InvoiceColor: #1C1E13;
+$r3BorderColor:  #1C1E13;
+$r3TableBg: #9E9E9E;
+
 @import "bootstrap.min.css";
 
 body{
@@ -137,4 +143,36 @@ table.r2-table{
 }
 .r2-border-bottom{
   border-bottom: 1px solid $r2BorderColor;
+}
+//report2 end
+//report3 Start
+.r3-invoice-word{
+  text-align: right;
+  h2{
+    color: $r3InvoiceColor;
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 9px;
+
+  }
+}
+.r3-border-bottom{
+  border-bottom: solid 1px $r3BorderColor;
+}
+.va-bottom{
+  vertical-align: bottom !important;
+}
+.r3-table-1{
+  th{
+    background-color: $r3TableBg ;
+    padding: 0.5rem;
+    color: $r3BorderColor;
+  }
+  td{
+    padding: 0.5rem;
+    color: $r3BorderColor;
+  }
+}
+.r3-color{
+  color: $r3BorderColor;
 }
