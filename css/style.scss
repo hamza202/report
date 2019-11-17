@@ -22,7 +22,17 @@ $r4Color: #000;
 $r4BigBorder:#FF9F05;
 $r4TableBorder: #000;
 $r4borderBottom: #000;
+
+//Variables report5
+$r5MainColor: #2F5596;
+$r5BlackColor:#000;
+$r5WhiteColor:#fff;
+$r5GrayColor: #D9D9D9;
+$r5FontColor:#000;
+$r5LightGray: #F2F2F2;
+
 @import "bootstrap.min.css";
+@import "fontawesome-all.css";
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap');
 body{
   background-color: $background;
@@ -216,4 +226,94 @@ table.r2-table{
 }
 .r4-border-bottom{
   border-bottom: 1px solid $r4borderBottom;
+}
+//report4 End
+//report5 starting
+
+.r5{
+  color: $r5FontColor;
+}
+.r5-first-section{
+  h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 70px;
+  }
+}
+.r5-icon-list{
+  i{
+    color: $r5MainColor;
+    width: 25px;
+    text-align: center;
+  }
+}
+.r5-invoice-card{
+  background-color: $r5MainColor;
+  color: $r5WhiteColor;
+  padding: 135px 10px 25px 10px;
+  margin-right: 40px;
+  h2{
+    border-bottom: 2px solid $r5WhiteColor;
+    display: inline-block;
+  }
+}
+.r5-table{
+  text-align: center;
+  tbody{
+    tr{
+      th,td{
+        border: 0;
+      }
+      th:first-child,th:nth-child(2) {
+        text-align: left;
+      }
+      td:first-child,td:nth-child(2){
+        text-align: left;
+      }
+      background-color: $r5LightGray;
+      &:nth-child(even){
+        background-color: $r5GrayColor;
+      }
+    }
+    th{
+      color: $r5WhiteColor;
+      background-color: $r5MainColor;
+      &:last-child{
+        border-left: 2px solid $r5WhiteColor;
+      }
+    }
+    th:first-child , th:nth-child(2){
+      background-color: $r5BlackColor;
+    }
+    th:nth-child(2){
+      border-right: 2px solid $r5WhiteColor;
+    }
+  }
+}
+.r5-blue-color{
+  color: $r5MainColor;
+}
+.r5-blue-bg{
+  background-color:$r5MainColor ;
+}
+.r5-black-bg{
+  background-color: $r5BlackColor;
+}
+.r5-white-color{
+  color:$r5WhiteColor
+}
+.r5-total{
+  td{
+   font-size: 20px;
+    font-weight: 700;
+  }
+}
+.r5-border-bottom{
+  border-bottom: 1px solid $r5FontColor;
+}
+.r5-fourth-section{
+  background-color: $r5MainColor;
+  text-align: center;
+  color: $r5WhiteColor;
+  padding: 10px;
 }
