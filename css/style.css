@@ -309,4 +309,78 @@ table.r6-table1 {
     background-color: #E4E4E4;
     width: 100%; }
 
+.r7 {
+  color: #1C1B23; }
+
+.r7-invoice {
+  text-align: center;
+  padding-top: 100px;
+  background-color: #3556C9;
+  padding-bottom: 30px; }
+  .r7-invoice h3 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase; }
+
+.r7-side-div {
+  background-color: #D4E1F2; }
+  .r7-side-div .r7-logo {
+    margin-top: 20px; }
+    .r7-side-div .r7-logo img {
+      max-width: 80%; }
+
+.r7-info-container {
+  padding: 10px;
+  margin-top: 30px; }
+  .r7-info-container p {
+    margin-bottom: 5px; }
+
+.r7-first-section {
+  margin-top: 150px; }
+  .r7-first-section span {
+    font-weight: 600; }
+  .r7-first-section p {
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 20px;
+    margin-bottom: 0;
+    min-width: 150px;
+    font-weight: 600; }
+
+.r7-second-section p {
+  margin-top: 30px;
+  font-style: italic; }
+
+.r7-title {
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 3px;
+  font-weight: 700; }
+
+.r7-third-section p {
+  margin-bottom: 3px; }
+
+.r7-table {
+  text-align: center; }
+  .r7-table tr:nth-child(odd) td {
+    background-color: #ececec; }
+  .r7-table tr:nth-last-child(2) td {
+    border-bottom-color: #1C1B23; }
+  .r7-table tr:last-child td {
+    border-color: #1C1B23; }
+  .r7-table tr th {
+    border: 2px solid #CCCCCC;
+    background-color: #3556C9;
+    color: #fff; }
+  .r7-table tr td {
+    border: 2px solid #CCCCCC; }
+    .r7-table tr td.r7-LightBlue-bg {
+      background-color: #D4E1F2; }
+    .r7-table tr td:last-child {
+      text-align: right; }
+
+.r7-LightBlue-bg {
+  background-color: #D4E1F2; }
+
+.r7-fifth-section p {
+  border-top: 1px solid #1C1B23; }
+
 /*# sourceMappingURL=style.css.map */

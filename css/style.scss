@@ -38,6 +38,13 @@ $r6RedColor: #c10100;
 $r6Lightborder: #E4E4E4;
 $r6ThBg: #eeeeee;
 
+//Variables report7
+$r7BlueColor: #3556C9;
+$r7WhiteColor: #fff;
+$r7LightBlue: #D4E1F2;
+$r7GryColor: #ececec;
+$r7BorderColor: #CCCCCC;
+$r7FontColor:#1C1B23;
 
 @import "bootstrap.min.css";
 @import "fontawesome-all.css";
@@ -471,5 +478,110 @@ table.r6-table1{
         background-color: $r6Lightborder;
         width: 100%;
       }
+  }
+}
+//report6 end
+//report7 start
+.r7{
+  color: $r7FontColor;
+}
+.r7-invoice{
+  text-align: center;
+  padding-top: 100px;
+  background-color: $r7BlueColor;
+  padding-bottom: 30px;
+  h3{
+    color: $r7WhiteColor;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
+.r7-side-div{
+  background-color: $r7LightBlue;
+  .r7-logo{
+    margin-top: 20px;
+    img{
+      max-width: 80%;
+    }
+  }
+}
+.r7-info-container{
+  padding: 10px;
+  margin-top: 30px;
+  p{
+    margin-bottom: 5px;
+  }
+}
+.r7-first-section{
+  margin-top: 150px;
+  span{
+    font-weight: 600;
+  }
+  p{
+    border-bottom: 1px solid $r7BorderColor;
+    margin-top: 20px;
+    margin-bottom: 0;
+    min-width: 150px;
+    font-weight: 600;
+  }
+}
+.r7-second-section{
+  p{
+    margin-top: 30px;
+    font-style: italic;
+  }
+}
+.r7-title{
+  border-bottom: 1px solid $r7BorderColor;
+  padding-bottom: 3px;
+  font-weight: 700;
+}
+.r7-third-section{
+  p{
+    margin-bottom: 3px;
+  }
+}
+.r7-table{
+  text-align: center;
+  tr{
+    
+    &:nth-child(odd){
+      td{
+        background-color: $r7GryColor;
+      }
+    }
+    &:nth-last-child(2){
+      td{
+        border-bottom-color: $r7FontColor ;
+      }
+    }
+    &:last-child{
+      td{
+        border-color: $r7FontColor ;
+      }
+    }
+    th{
+      border: 2px solid $r7BorderColor;
+      background-color: $r7BlueColor;
+      color: $r7WhiteColor;
+    }
+    td{
+      border: 2px solid $r7BorderColor;
+      &.r7-LightBlue-bg{
+        background-color: $r7LightBlue;
+      }
+      &:last-child{
+        text-align: right;
+      }
+    }
+  }
+
+}
+.r7-LightBlue-bg{
+  background-color: $r7LightBlue;
+}
+.r7-fifth-section{
+  p{
+    border-top: 1px solid $r7FontColor;
   }
 }
