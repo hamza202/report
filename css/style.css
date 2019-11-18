@@ -205,4 +205,108 @@ table.r2-table th, table.r2-table td {
   color: #fff;
   padding: 10px; }
 
+.r6 {
+  color: #010101; }
+
+.r6-first-section h2 {
+  font-size: 90px;
+  font-weight: 700; }
+
+.r6-logo img {
+  max-width: 200px;
+  max-height: 80px; }
+
+.r6-invoice-number span {
+  color: #8c8c8c; }
+.r6-invoice-number p {
+  color: #c10100;
+  font-weight: 700;
+  margin-top: -15px;
+  font-size: 21px; }
+  .r6-invoice-number p span {
+    font-size: 16px; }
+
+table.r6-table1 {
+  color: #010101; }
+  table.r6-table1 th {
+    border-bottom: 3px solid #010101;
+    border-top: 0;
+    font-size: 25px;
+    font-weight: 800; }
+  table.r6-table1 tr td {
+    padding: 2px 0.75rem;
+    font-size: 20px;
+    border-bottom: 2px solid #E4E4E4; }
+    table.r6-table1 tr td:first-child, table.r6-table1 tr td:nth-child(3) {
+      color: #8c8c8c;
+      font-size: 15px;
+      vertical-align: middle;
+      padding-top: 0;
+      padding-bottom: 0; }
+  table.r6-table1 tr:nth-child(2) td {
+    position: relative; }
+    table.r6-table1 tr:nth-child(2) td:after {
+      left: 0;
+      position: absolute;
+      content: '';
+      display: block;
+      top: 0;
+      height: 6px;
+      background-color: #E4E4E4;
+      width: 100%; }
+
+.r6-table2 tr:first-child td {
+  border: 2px solid transparent;
+  font-size: 25px;
+  font-weight: 800; }
+.r6-table2 tr:last-child td {
+  background-color: #eeeeee;
+  text-align: right !important;
+  border-bottom: 3px solid #010101; }
+  .r6-table2 tr:last-child td h3 {
+    color: #010101;
+    font-weight: 800; }
+    .r6-table2 tr:last-child td h3 span {
+      color: #c10100; }
+.r6-table2 tr th {
+  background-color: #eeeeee;
+  border: 2px solid #E4E4E4;
+  border-top: 3px solid #010101; }
+  .r6-table2 tr th:first-child {
+    border-left-color: transparent; }
+  .r6-table2 tr th:last-child {
+    border-right-color: transparent; }
+  .r6-table2 tr th:nth-child(2) {
+    text-align: left !important; }
+.r6-table2 tr td {
+  border: 2px solid #E4E4E4; }
+  .r6-table2 tr td:first-child {
+    border-left-color: transparent;
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 700; }
+  .r6-table2 tr td:last-child {
+    border-right-color: transparent; }
+  .r6-table2 tr td:nth-child(2) {
+    text-align: left !important; }
+
+.r6-table3 th {
+  font-size: 20px;
+  font-weight: 800;
+  border-color: transparent;
+  border-bottom: 3px solid #010101; }
+.r6-table3 td {
+  border-color: transparent;
+  color: #8c8c8c;
+  position: relative; }
+  .r6-table3 td:after {
+    left: 0;
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    height: 6px;
+    background-color: #E4E4E4;
+    width: 100%; }
+
 /*# sourceMappingURL=style.css.map */

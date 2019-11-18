@@ -31,6 +31,14 @@ $r5GrayColor: #D9D9D9;
 $r5FontColor:#000;
 $r5LightGray: #F2F2F2;
 
+//Variables report6
+$r6FontColor: #010101;
+$r6GrayColor: #8c8c8c;
+$r6RedColor: #c10100;
+$r6Lightborder: #E4E4E4;
+$r6ThBg: #eeeeee;
+
+
 @import "bootstrap.min.css";
 @import "fontawesome-all.css";
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap');
@@ -316,4 +324,152 @@ table.r2-table{
   text-align: center;
   color: $r5WhiteColor;
   padding: 10px;
+}
+//report5 End
+//report6 Start
+.r6{
+  color: $r6FontColor;
+}
+.r6-first-section{
+  h2{
+    font-size: 90px;
+    font-weight: 700;
+  }
+}
+.r6-logo{
+  img{
+    max-width: 200px;
+    max-height:80px ;
+  }
+}
+.r6-invoice-number{
+  span{
+      color: $r6GrayColor;
+  }
+  p{
+    color: $r6RedColor;
+    font-weight: 700;
+    margin-top: -15px;
+    font-size: 21px;
+    span{
+        font-size: 16px;
+    }
+  }
+}
+table.r6-table1{
+  color: $r6FontColor;
+  th{
+    border-bottom: 3px solid $r6FontColor;
+    border-top: 0;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  tr{
+    td{
+      padding: 2px 0.75rem;
+      font-size: 20px;
+      border-bottom: 2px solid $r6Lightborder;
+      &:first-child , &:nth-child(3){
+        color: $r6GrayColor;
+        font-size: 15px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+    &:nth-child(2){
+      td{
+        position: relative;
+        &:after{
+          left: 0;
+          position: absolute;
+          content: '';
+          display: block;
+          top: 0;
+          height: 6px;
+          background-color: $r6Lightborder;
+          width: 100%;
+        }
+      }
+
+    }
+  }
+}
+.r6-table2 {
+  tr{
+    &:first-child{
+      td{
+        border: 2px solid transparent;
+        font-size: 25px;
+        font-weight: 800;
+
+      }
+    }
+    &:last-child{
+      td{
+        background-color: $r6ThBg;
+        text-align: right !important;
+        border-bottom: 3px solid $r6FontColor;
+        h3{
+          color: $r6FontColor;
+          font-weight: 800;
+          span{
+            color: $r6RedColor;
+          }
+        }
+      }
+    }
+    th{
+      background-color: $r6ThBg;
+      border:2px solid $r6Lightborder;
+      border-top: 3px solid $r6FontColor;
+      &:first-child {
+        border-left-color:  transparent;
+      }
+      &:last-child{
+        border-right-color:  transparent;
+      }
+      &:nth-child(2){
+        text-align: left !important;
+      }
+    }
+    td{
+      &:first-child {
+        border-left-color:  transparent;
+        color: $r6GrayColor;
+        font-size: 18px;
+        font-weight: 700;
+      }
+      &:last-child{
+        border-right-color:  transparent;
+      }
+      border:2px solid $r6Lightborder;
+      &:nth-child(2){
+        text-align: left !important;
+      }
+    }
+  }
+}
+.r6-table3{
+  th{
+    font-size: 20px;
+    font-weight: 800;
+    border-color: transparent;
+    border-bottom: 3px solid $r6FontColor;
+  }
+  td{
+    border-color: transparent;
+      color: $r6GrayColor;
+      position: relative;
+      &:after{
+        left: 0;
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        height: 6px;
+        background-color: $r6Lightborder;
+        width: 100%;
+      }
+  }
 }
