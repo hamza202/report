@@ -46,6 +46,10 @@ $r7GryColor: #ececec;
 $r7BorderColor: #CCCCCC;
 $r7FontColor:#1C1B23;
 
+//Variables report8
+$r8mainColor: #C55911;
+$r8TableBorder:#000;
+
 @import "bootstrap.min.css";
 @import "fontawesome-all.css";
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap');
@@ -584,4 +588,54 @@ table.r6-table1{
   p{
     border-top: 1px solid $r7FontColor;
   }
+}
+//report7 End
+//report8 Start
+.r8-invoice-table{
+  table{
+    th{
+        background-color: $r8mainColor;
+      color: white;
+      border-color: $r8TableBorder;
+    }
+    tr{
+      td{
+        padding-top:5px ;
+        padding-bottom: 5px;
+        border-color: $r8TableBorder;
+      }
+      &:not(:first-child){
+        td{
+          //border-top: 0;
+        }
+      }
+      &:not(:last-child){
+        td{
+          //border-bottom: 0;
+          //padding-bottom: 0;
+        }
+      }
+    }
+  }
+}
+.r8-table-2{
+  tr{
+    th{
+      background-color: $r8mainColor;
+      color: #fff;
+      border-color: $r8TableBorder;
+    }
+    td{
+      border-color: $r8TableBorder;
+    }
+  }
+}
+.border-bottom-dashed{
+  border-bottom: 2px dashed $r8TableBorder;
+}
+.r8-bg{
+  background-color: $r8mainColor;
+}
+.r8-border{
+  border: 1px solid $r8TableBorder;
 }

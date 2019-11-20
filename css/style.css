@@ -383,4 +383,29 @@ table.r6-table1 {
 .r7-fifth-section p {
   border-top: 1px solid #1C1B23; }
 
+.r8-invoice-table table th {
+  background-color: #C55911;
+  color: white;
+  border-color: #000; }
+.r8-invoice-table table tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: #000; }
+
+.r8-table-2 tr th {
+  background-color: #C55911;
+  color: #fff;
+  border-color: #000; }
+.r8-table-2 tr td {
+  border-color: #000; }
+
+.border-bottom-dashed {
+  border-bottom: 2px dashed #000; }
+
+.r8-bg {
+  background-color: #C55911; }
+
+.r8-border {
+  border: 1px solid #000; }
+
 /*# sourceMappingURL=style.css.map */
